@@ -21,6 +21,21 @@ p {
     font-size: 16px;
 }
 
+/************ table ****************/
+.slno th{
+            border-bottom: none;
+            border-top: none;
+}
+table,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border-right: 1px solid black;
+    border-collapse: collapse;
+
+}
+
 /*** Calendar **********************/
 .content .container-fluid div.calender  { position: relative; }
 
